@@ -38,7 +38,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
+      "@/public/*": ["./public/*"],
+      "@material-tailwind/react": ["node_modules/@material-tailwind/react"]
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
