@@ -14,9 +14,9 @@ const Hero = () => {
   const router = useRouter();
   
   const images = [
-    "/assets/images/banner.png",
-    "/assets/images/banner2.png",
-    "/assets/images/banner3.png",
+    "/assets/images/banner4.png",
+    "/assets/images/banner5.png",
+    "/assets/images/banner6.png",
   ];
 
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
       </NavbarTwoColumns>
     </Section>
 
-    <Section>
+    <Section yPadding='py-5'>
     <div className="lg:w-4/4 mx-auto">
       <Carousel loop>
         {images.map((src, i) => {
