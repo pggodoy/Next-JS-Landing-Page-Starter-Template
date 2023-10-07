@@ -25,6 +25,16 @@ const Hero = () => {
     <Section yPadding="py-5">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
+          <Link href="/exports/cherry">
+            Cerezas
+          </Link>
+        </li>
+        <li>
+          <Link href="/exports/kiwi">
+            Kiwis
+          </Link>
+        </li>
+        <li>
           <Link href="http://huaquen.fruttita.cl/">
             Extranet
           </Link>

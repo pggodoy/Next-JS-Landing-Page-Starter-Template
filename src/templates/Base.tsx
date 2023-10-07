@@ -3,9 +3,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
-import { Formats } from './Formats';
 import FancyTestimonialsSlider from '../testimonial/fancy-testimonial-slider'
-import { DefaultTable } from './Table';
 
 const Base = () => (
   <div className="text-gray-600 antialiased">
@@ -13,8 +11,6 @@ const Base = () => (
     <Hero />
     <VerticalFeatures />
     <FancyTestimonialsSlider />
-    <Formats />
-    <DefaultTable />
     <Footer />
   </div>
 );
